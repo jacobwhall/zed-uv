@@ -1,0 +1,10 @@
+id = "zed-uv"
+name = "uv integration"
+description = "control uv the hard way..."
+version = "0.1.0"
+schema_version = 1
+repository = "https://github.com/jacobwhall/zed-uv"
+
+[slash_commands.uv]
+description = "runs uv commands via a server"
+requires_argument = true
